@@ -1,16 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #1a1a1a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*header*/
 header {
-    border: 1px solid black;
     text-align: center;
+    background-color: #e63946;
+    position: static;
+    padding: 30px;
+    color: #f1f1f1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
 }
 
 /*main*/
 main {
     display: flex;
+    padding: 15px;
 }
 
 .sidebar {
@@ -18,10 +34,21 @@ main {
     height: auto;
     position: fixed;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 li a {
     text-decoration: none;
+    color: #c6c4c4;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #e63946;
+}
+
+li {
+    padding: 10px;
 }
 
 ul {
@@ -30,19 +57,31 @@ ul {
 
 .content {
     width: 80%;
-    border: 1px solid black;
     margin-left: 20%;
+    color: #f1f1f1;
 
 }
 
 .band-info {
-    border: 1px solid red;
-    padding: 0 15px 15px 15px;
+    background-color: #292828;
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: 20px;
     margin: 5px;
+}
+
+.band-name {
+    color:#e63946;
+}
+
+p {
+    padding: 5px 0;
 }
 
 /*footer*/
 footer {
-    border: 1px solid black;
-    padding: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #e63946;
+    color: #f1f1f1;
 }
