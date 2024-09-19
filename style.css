@@ -1,22 +1,36 @@
+/*header*/
 header {
     border: 1px solid black;
     text-align: center;
 }
 
+/*main*/
 main {
     display: flex;
 }
 
 .sidebar {
-    border: 1px solid black;
     width: 20%;
+    height: auto;
+    position: fixed;
+    margin-right: -5px;
 }
 
 .content {
     width: 80%;
     border: 1px solid black;
+    margin-left: 20%;
+
 }
 
+.band-info {
+    border: 1px solid red;
+    padding: 0 15px 15px 15px;
+    margin: 5px;
+}
+
+/*footer*/
 footer {
     border: 1px solid black;
+    padding: 5px;
 }
