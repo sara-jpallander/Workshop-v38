@@ -17,7 +17,15 @@ main {
     width: 20%;
     height: auto;
     position: fixed;
-    margin-right: -5px;
+    margin-top: 10px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 .content {
