@@ -1,9 +1,15 @@
 header {
     border: 1px solid black;
+    text-align: center;
 }
 
 .sidebar {
     border: 1px solid black;
+    width: 20%;
+}
+
+.content {
+    width: 80%;
 }
 
 footer {
